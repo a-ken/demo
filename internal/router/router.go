@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	endpoint "ken.com.tw/demo/internal/router/endoint"
+	"ken.com.tw/demo/internal/router/endpoint"
 )
 
 func Initial() *gin.Engine {
