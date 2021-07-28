@@ -1,4 +1,4 @@
-.PHONY: build run test
+.PHONY: build clean run test
 
 all: build
 
@@ -10,7 +10,7 @@ clean:
 	go clean -i
 
 run:
-	go run ./cmd/main.go
+	go run ./cmd/server/main.go
 
 test:
 	go test ./test
